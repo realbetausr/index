@@ -1,0 +1,36 @@
+{
+   "action": {
+      "default_icon": {
+         "128": "images/icon128.png",
+         "16": "images/icon16.png",
+         "180": "images/icon180.png",
+         "32": "images/icon32.png",
+         "48": "images/icon48.png"
+      },
+      "default_title": "__MSG_title__"
+   },
+   "background": {
+      "service_worker": "background.js"
+   },
+   "content_security_policy": {
+      "extension_pages": "script-src 'self' ; object-src 'self'"
+   },
+   "default_locale": "en",
+   "description": "__MSG_description__",
+   "homepage_url": "https://stickmanhook.info",
+   "icons": {
+      "128": "images/icon128.png",
+      "16": "images/icon16.png",
+      "180": "images/icon180.png",
+      "32": "images/icon32.png",
+      "48": "images/icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApA4YDra4b7IFagP2AXlL1GYGxYE3bqSYSEGjsM3ahATiqMs5eRpHBJNbsyLq3bYw0qLMw3Ut34HI2QP6FUvYysNAHL/Mj4+Hr3OgOSf4qGrm85CkdrBP2++hZz7VIWOxR/lqiUVUVN1igtYAapqFamvBEYDA38nTRl0t3Pr4yHRiLN34mwN4oELN2oC6mvIhHeH0A3x5SoZRRw4Xj06/LoSxWEypFsvU1Ba9gE+waO09Ot3jmW5psZOntIXEIIGEv2fbEf/ZnP5i9l4YEOioJ2po5kRK7VhReulgCMZYqYHu9OtI8YKSDbZfPD5rnue32brzr/Rb9eSU6sXPLLNnGwIDAQAB",
+   "manifest_version": 3,
+   "name": "__MSG_title__",
+   "sandbox": {
+      "pages": [ "player.html" ]
+   },
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.6"
+}
